@@ -1,0 +1,1 @@
+misc_scores = raw_data[raw_data['Genre'] == 'Misc'].groupby('score_phrase').groups
